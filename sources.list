@@ -1,0 +1,20 @@
+#------------------------------------------------------------------------------#
+#                            OFFICIAL UBUNTU REPOS                             #
+#------------------------------------------------------------------------------#
+
+
+###### Ubuntu Main Repos
+deb http://il.archive.ubuntu.com/ubuntu/ xenial main universe 
+deb-src http://il.archive.ubuntu.com/ubuntu/ xenial main universe 
+
+###### Ubuntu Update Repos
+deb http://il.archive.ubuntu.com/ubuntu/ xenial-security main universe 
+deb http://il.archive.ubuntu.com/ubuntu/ xenial-updates main universe 
+deb http://il.archive.ubuntu.com/ubuntu/ xenial-proposed main universe 
+deb http://il.archive.ubuntu.com/ubuntu/ xenial-backports main universe 
+deb-src http://il.archive.ubuntu.com/ubuntu/ xenial-security main universe 
+deb-src http://il.archive.ubuntu.com/ubuntu/ xenial-updates main universe 
+deb-src http://il.archive.ubuntu.com/ubuntu/ xenial-proposed main universe 
+deb-src http://il.archive.ubuntu.com/ubuntu/ xenial-backports main universe 
+
+
