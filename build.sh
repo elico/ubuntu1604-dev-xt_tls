@@ -22,9 +22,9 @@ chmod 777 /build/destdir/
 make install && \
 echo $?
 
-mkdir -p /build/destdir/lib/modules/`ls /lib/modules/`/kernel/net/netfilter/ && \
+mkdir -p /build/destdir/lib/modules/`ls /lib/modules/`/extra/ && \
 mkdir -p /build/destdir/lib/xtables/ && \
-cp /lib/modules/`ls /lib/modules/`/kernel/net/netfilter/xt_tls.ko /build/destdir/lib/modules/`ls /lib/modules/`/kernel/net/netfilter/ && \
+cp /lib/modules/`ls /lib/modules/`/extra/xt_tls.ko /build/destdir/lib/modules/`ls /lib/modules/`/extra/ && \
 cp /lib/xtables/libxt_tls.so /build/destdir/lib/xtables/ && \
 echo $?
 
